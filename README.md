@@ -4,8 +4,6 @@
 
 **Your North Star** is a browser-based personal alignment system designed to help you define your vision, set a 12-week focus, and maintain a gentle weekly rhythm. It is built to be private, offline-capable, and distractions-free.
 
-![App Screenshot](public/screenshot.png) *(You can add a screenshot here later)*
-
 ## ✨ Core Philosophy
 
 This app is grounded in **Self-Determination Theory** and **Calm Technology**:
