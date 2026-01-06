@@ -6,7 +6,6 @@ export function Card({ children, className = '', ...props }) {
         borderRadius: 'var(--radius-md)',
         boxShadow: 'var(--shadow-sm)',
         padding: 'var(--space-lg)',
-        /* Refined border for distinctness */
         border: '1px solid var(--color-border)',
         transition: 'transform var(--transition-fast), box-shadow var(--transition-fast)',
     };
@@ -36,14 +35,13 @@ export function Card({ children, className = '', ...props }) {
 
 export function Section({ title, children, description }) {
     const sectionStyle = {
-        paddingLeft: 'var(--space-lg)',
-        borderLeft: '4px solid var(--color-section-border)',
-        marginBottom: 'var(--space-xxl)', /* Large spacing between steps for "Better sectioning" */
-        marginLeft: '-2px' /* align border */
+        /* Mobile: less padding, no border to save space? Or keep it for titles? */
+        /* Let's keep it clean but reduce margins since it's now a full View */
+        marginBottom: 'var(--space-lg)',
     };
 
     return (
-        <section style={sectionStyle}>
+        <section style={sectionStyle} className="fade-in">
             <header style={{ marginBottom: 'var(--space-md)' }}>
                 <h2 style={{ fontSize: 'var(--text-xl)', color: 'var(--color-text-primary)', marginBottom: 'var(--space-xs)' }}>
                     {title}

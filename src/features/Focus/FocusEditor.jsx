@@ -55,7 +55,7 @@ export function FocusEditor() {
                     value={activeObjective.title}
                     onChange={(e) => handleUpdate({ title: e.target.value })}
                 />
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-md)' }}>
+                <div>
                     <Input
                         label="Start Date"
                         type="date"
