@@ -1,0 +1,70 @@
+:root {
+  /* 
+   * Palette: "Golden Hour" 
+   * Warm, vibrant, high-contrast text.
+   */
+  --color-bg-app: #FDFCF8;
+  /* Cream */
+  --color-bg-panel: #FFFFFF;
+  /* White */
+  --color-bg-input: #F2F0E9;
+  /* Warm Sandstone - Distinct from white panel */
+
+  --color-text-primary: #0F0F0F;
+  /* Sharp Black for "Pop" */
+  --color-text-secondary: #4A4641;
+  /* Dark warm grey */
+  --color-text-tertiary: #8C8881;
+
+  /* Accents - More Vibrant */
+  --color-accent: #D97706;
+  /* Rich Amber/Terracotta */
+  --color-accent-hover: #B45309;
+  --color-accent-soft: rgba(217, 119, 6, 0.15);
+
+  --color-section-border: #E8E4D9;
+  /* For dividing sections */
+
+  /* Functional */
+  --color-success: #059669;
+  /* Emerald */
+  --color-warning: #D97706;
+  --color-error: #DC2626;
+
+  --color-border: rgba(0, 0, 0, 0.08);
+  /* Slightly clearer borders */
+
+  /* Spacing Scale */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-xxl: 64px;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.5rem;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 8px 16px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.08);
+
+  /* Animation */
+  --ease-out: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-fast: 0.2s var(--ease-out);
+}

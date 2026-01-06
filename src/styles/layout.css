@@ -1,0 +1,26 @@
+.main-grid {
+    display: grid;
+    gap: var(--space-xl);
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .main-grid {
+        grid-template-columns: minmax(0, 2fr) 350px;
+        /* Prevent overflow with minmax */
+        align-items: start;
+    }
+}
+
+.content-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-col {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+    position: sticky;
+    top: var(--space-lg);
+}
